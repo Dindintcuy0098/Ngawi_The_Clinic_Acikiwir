@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <string.h>
+
+typedef struct {
+    char id_pasien [8];
+    char nama_pasien [30];
+    char id_dokter [8];
+    char nama_dokter [30];
+    char tipe_pembayaran [7];
+    float biaya;
+    char keluhan [8]
+} Pasien;
+
+int jumlah_pasien = 0;
+
+void tampilkan_menu() {
+    printf("1. Input Data Pasien\n");
+    printf("2. Tampilkan Data Psien\n");
+    printf("3. Urutkan Data\n");
+    printf("4. Cari Data\n");
+    printf("5. Total Pendapatan\n");
+    printf("6. Keluar\n")
+}
+
+Pasien input_data() {
+    printf("ID Pasien :")
+    scanf("%c, pasien")
+} 
+void tampilkan_data
+void urutkan_data
+void cari_data
+void total_pendapatan
+
+int main() {
+    int pilihan;
+
+}
