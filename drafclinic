@@ -9,7 +9,7 @@ typedef struct {
     char tipe_pembayaran [7];
     float biaya;
     char keluhan [8]
-} Pasien;
+} pasien;
 
 int jumlah_pasien = 0;
 
