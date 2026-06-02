@@ -1,0 +1,22 @@
+void tampilkan_data() {
+    printf("\n  --- Daftar Data Pasien ---\n\n");
+
+    if (jumlah_pasien == 0) {
+        printf("  [!] Belum ada data pasien.\n\n");
+        return;
+    }
+
+    printf("  ID Pasien | Nama Pasien | ID Dokter | Nama Dokter | Biaya\n");
+
+    for (int i = 0; i < jumlah_pasien; i++) {
+        printf("  %-8s    %-11s   %-9s   %-11s   Rp %.2f\n",
+            daftar[i].id_pasien,
+            daftar[i].nama_pasien,
+            daftar[i].id_dokter,
+            daftar[i].nama_dokter,
+            daftar[i].biaya
+        );
+    }
+
+    printf("\n  Total pasien: %d\n\n", jumlah_pasien);
+}
